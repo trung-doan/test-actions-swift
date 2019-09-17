@@ -23,7 +23,7 @@ class TestActionsSwiftTests: XCTestCase {
         let cal = Calculator()
         let result = cal.sum(num1: 1, num2: 2)
 
-        XCTAssert(result == 3)
+        XCTAssert(result == 4)
     }
 
     func testPerformanceExample() {
