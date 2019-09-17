@@ -10,5 +10,5 @@ jobs:
         uses: actions/checkout@master
       - name: test
         run: |
-          xcodebuild test -project TestActionsSwift.xcodeproj -scheme TestActionsSwiftTests -destination 'generic/platform=iOS'
+          xcodebuild clean test -project TestActionsSwift.xcodeproj -scheme TestActionsSwiftTests -destination 'generic/platform=iOS'
 
