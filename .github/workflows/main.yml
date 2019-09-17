@@ -10,6 +10,5 @@ jobs:
         uses: actions/checkout@master
       - name: Build and test
         run: |
-          xcodebuild clean test -project TestActionsSwift.xcodeproj -scheme TestActionsSwift -destination "['platform=iOS Simulator,OS=12.2,name=iPhone X', 'platform=tvOS Simulator,OS=12.2,name=Apple TV 4K']" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
-          bash <(curl -s https://codecov.io/bash)
+          xcodebuild test -project TestActionsSwift.xcodeproj -scheme TestActionsSwift -destination 'platform=iOS Simulator,OS=12.4,name=iPhone X'
 
