@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@master
-      - name: Build and test
+      - name: test
         run: |
-          xcodebuild clean test -project TestActionsSwift.xcodeproj -scheme TestActionsSwiftTests -destination 'generic/platform=iOS'
+          xcodebuild test -project TestActionsSwift.xcodeproj -scheme TestActionsSwiftTests -destination 'generic/platform=iOS'
 
