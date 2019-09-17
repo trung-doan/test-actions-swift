@@ -11,3 +11,4 @@ jobs:
       - name: test
         run: |
           xcrun simctl list
+          xcodebuild test -project TestActionsSwift.xcodeproj -scheme TestActionsSwift -destination 'platform=iOS Simulator,OS=12.2,name=iPhone X'
