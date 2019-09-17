@@ -450,7 +450,7 @@
 				A8750B282330808D0038E4AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		A8750B292330808D0038E4AF /* Build configuration list for PBXNativeTarget "TestActionsSwift" */ = {
 			isa = XCConfigurationList;
@@ -459,7 +459,7 @@
 				A8750B2B2330808D0038E4AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		A8750B2C2330808D0038E4AF /* Build configuration list for PBXNativeTarget "TestActionsSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -468,7 +468,7 @@
 				A8750B2E2330808D0038E4AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
