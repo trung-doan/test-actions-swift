@@ -8,3 +8,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@master
+      - name: Build and test
+        run: |
+          cd test-actions-swift
